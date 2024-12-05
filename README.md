@@ -30,7 +30,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone [url-репозитория]
+git clone https://github.com/daniilgrebnev/qmd.git
 cd test-teachers
 ```
 
