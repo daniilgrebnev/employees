@@ -1,0 +1,53 @@
+:root {
+  /* Colors */
+  --white: #F8F4E3;
+  --gray: #D4CDC3;
+  --dark-gray: #D5D0CD;
+  --light-green: #A2A392;
+  --green: #9A998C;
+  
+  /* Spacing */
+  --spacing-small: 8px;
+  --spacing-medium: 16px;
+  --spacing-large: 24px;
+  
+  /* Font sizes */
+  --font-size-small: 12px;
+  --font-size-medium: 14px;
+  --font-size-large: 16px;
+  --font-size-xlarge: 20px;
+  
+  /* Border radius */
+  --border-radius-small: 4px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 12px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s;
+  --transition-medium: 0.3s;
+  --transition-slow: 0.4s;
+}
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--white);
+  color: var(--green);
+}
+
+.hover_scale {
+  transition: transform var(--transition-fast) ease;
+  cursor: pointer;
+}
+
+.hover_scale:hover {
+  transform: scale(1.1);
+}

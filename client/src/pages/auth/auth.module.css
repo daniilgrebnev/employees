@@ -1,0 +1,52 @@
+.tabs {
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--white);
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--light-green);
+}
+
+.switchMode {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.switchButton {
+  background: none;
+  border: none;
+  color: var(--light-green);
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 8px 16px;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.switchButton:hover {
+  color: var(--green);
+}
+
+.error {
+  color: #ff4d4f;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
