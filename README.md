@@ -31,7 +31,7 @@
 1. Клонируйте репозиторий:
 ```bash
 git clone https://github.com/daniilgrebnev/qmd.git
-cd test-teachers
+cd qmd
 ```
 
 2. Установите зависимости:
